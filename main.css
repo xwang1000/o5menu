@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  font-family: futura-pt, sans-serif; 
+  padding: 10px;
+}
+
+h1 {
+  font-family: futura-pt, sans-serif; 
+  font-weight: 500;
+  font-size: 1.8em;
+}
+
+p {
+  font-family: futura-pt, sans-serif; 
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2em;
+}
+
+.tea-item {
+  line-height: 0;
+  font-family: futura-pt, sans-serif; 
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  display: flex;
+  text-align: left;
+}
+
+.tea-info {
+  flex: 1;
+}
+
+.tea-prices {
+  flex: 1;
+  text-align: left;
+}
+
+.tea-origin {
+  font-style: italic;
+}
