@@ -8,6 +8,13 @@ h1 {
   font-family: futura-pt, sans-serif; 
   font-weight: 500;
   font-size: 1.8em;
+  margin-top: 65px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin-top: -20px;
 }
 
 p {
@@ -15,6 +22,7 @@ p {
   font-weight: 300;
   font-style: normal;
   font-size: 1.1em;
+  text-align: left;
 }
 
 .tea-item {
@@ -28,6 +36,7 @@ p {
 .tea-item--line1 {
   display: flex;
   text-align: left;
+  line-height: 0.2;
 }
 
 .tea-item--line1:hover {
@@ -38,17 +47,28 @@ p {
   background-color: #eee;
 }
 
-.tea-info {
-  flex: 1;
-}
-
-.tea-prices {
-  flex: 1;
-  text-align: left;
+.tea-name {
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .tea-origin {
-  font-style: italic;
+  text-transform: uppercase;
+}
+
+.tasting-notes {
+  text-transform: lowercase;
+}
+
+.tea-info {
+  flex: 2;
+}
+
+.prices {
+  flex: 1;
+  text-align: left;
+  font-weight: 500;
+  font-size: 0.9em;
 }
 
 .tea-item--line2 {
@@ -61,7 +81,7 @@ p {
 
 .tea-item--line2 {
   line-height: 1.3;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .punch-line {
